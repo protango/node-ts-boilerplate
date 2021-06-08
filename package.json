@@ -1,0 +1,18 @@
+{
+  "name": "node-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist",
+    "watch": "tsc --watch",
+    "dev": "node -r ts-node/register src"
+  },
+  "author": "",
+  "license": "UNLICENCED",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "ts-node": "^10.0.0"
+  }
+}
